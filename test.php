@@ -33,7 +33,7 @@
 			$type       = $resArr['data'][0]['type'];
 
 			$image_uri = $attributes['posterImage']['tiny'];
-			$title     = $attributes['titles']['en'];
+			$title     = $attributes['titles']['en_jp'];
 			$slug      = $attributes['slug'];
 
 			function uriBuilder($type, $slug) {
@@ -48,7 +48,7 @@
 				position: relative;
 				top: 100px;
 				background: #f75239;
-				width: 30%;
+				max-width: 25em;
 				padding: 0.5em;
 				font-family: Asap, sans-serif;
 				border-radius: 2px;
